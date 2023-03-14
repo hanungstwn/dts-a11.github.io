@@ -12,6 +12,6 @@ Remote Project
 
 Push Project
 1. git pull origin master
-2. git addd .
+2. git add .
 3. git commit -m "(isi-komen)"
 4. git push -u origin master
