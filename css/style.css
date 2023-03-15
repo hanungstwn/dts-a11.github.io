@@ -95,3 +95,77 @@ html {
   align-items: center;
   justify-content: center;
 }
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  
+  font-size: 28px;
+  
+  
+  padding-bottom: 15px;
+  
+ 
+  margin-bottom: 50px;
+}
+
+.contents-item {
+  float: left;
+  
+  margin-right: 40px;
+}
+
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  padding-top: 100px;
+}
+
+.input-container {
+  position: relative;
+}
+
+input, textarea {
+  height: 48px;
+  width: 280px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+
+.contact-submit {
+  background-color: #F0F8FF;
+  color: #000000;
+}
+
+.footer {
+  background-color: #696969;
+  color: #fff;
+  height: 210px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  color: #FFFF00;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+  font-size: 13px;
+
+}
