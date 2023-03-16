@@ -83,7 +83,7 @@ background-color: #F6F6F6;
 
 
 .hero-section {
-    background: url("/assets/hero.jpg") 50% no-repeat;
+    background: url("https://images.unsplash.com/photo-1516815231560-8f41ec531527?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80") 50% no-repeat;
     background-size: cover;
     height: 100vh;
     text-align: center;
