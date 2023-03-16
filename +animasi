@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" href="assets/ic-web.png">
+    <title >Travelin Aja</title>
+</head>
+<body>
+    <!-- Header Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <h1 class="logo">Travelin Aja</h1>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <div class="row" style="padding-top: 4em;">
+        <div class="column" style="padding-top: 8em;">
+          <h2 class="left-heading " >TRAVELIN AJA</h2>
+          <p class="left-paragraph">Bepergian dengan salah satu dari kami dan kami akan membuktikan kepada Anda bahwa itu tidak pernah lebih mudah, lebih aman, atau lebih menyenangkan</p>
+            <button class="btn success">Selengkapnya</button>
+        </div>
+        <div class="column">
+            <img src="assets/hero1.jpg" alt="hero" class="hero-img animate__animated animate__bounceInRight" style="border-radius: 10px;">
+        </div>
+    </div>
+
+    <!-- <div class="row">
+        <div class="left-column">
+            <h2 class="left-heading">TRAVELIN AJA</h2>
+            <p class="left-paragraph">Bepergian dengan salah satu dari kami dan kami akan membuktikan kepada Anda bahwa itu tidak pernah lebih mudah, lebih aman, atau lebih menyenangkan</p>
+            <button class="btn success">Selengkapnya</button>
+        </div>
+        <div class="right-column">
+         
+        </div>
+    </div> -->
+    
+    <!-- Body Menu -->
+    <div class="container">
+        <div class="menu-title">
+            <h1 class="animate__animated animate__bounce">LAYANAN DESTINASI KAMI</h1>
+        </div>
+        <main class="grid">
+            <article class="animate__animated animate__backInLeft">
+                <img src="assets/card-1.jpg" alt="Sample photo">
+                <div class="text">
+                    <h3 >Kala Patthar Peak</h3>
+                    <p>Kala Patthar adalah sebuah gunung di Himalaya, Nepal.</p>
+                    <button href="#" class="btn-article" >Selengkapnya</button>                
+                </div>
+            </article>
+            <article class="animate__animated animate__backInLeft">
+                <img src="assets/card-2.jpg" alt="Sample photo">
+                <div class="text">
+                    <h3>Gunung Bromo</h3>
+                    <p>Gunung Bromo adalah sebuah gunung berapi aktif di Jawa Timur, Indonesia.</p>
+                    <button href="#" class="btn-article">Selengkapnya</button>                
+                </div>
+            </article>
+            <article class="animate__animated animate__backInLeft">
+                <img src="assets/card-3.jpg" alt="Sample photo">
+                <div class="text">
+                    <h3>Pulau Kaua‘i</h3>
+                    <p>Pulau di Hawaii juga dikenal sebagai Pulau Taman.</p>
+                    <button href="#" class="btn-article">Selengkapnya</button>                
+                </div>
+            </article>
+            <article class="animate__animated animate__backInLeft">
+                <img src="assets/card-4.jpg" alt="Sample photo">
+                <div class="text">
+                    <h3>Islamorada</h3>
+                    <p>Sebuah desa yang berada di enam pulau yang membentuk Florida Keys.</p>
+                    <button href="#" class="btn-article">Selengkapnya</button>                
+                </div>
+            </article>
+            <article class="animate__animated animate__backInLeft">
+                <img src="assets/card-5.jpg" alt="Sample photo">
+                <div class="text">
+                    <h3>Ballachulish</h3>
+                    <p>Sebuah desa wisata yang berlokasi di Lochaber, Highland, Skotlandia</p>
+                    <button href="#" class="btn-article">Selengkapnya</button>                
+                </div>
+            </article>
+            <article class="animate__animated animate__backInLeft">
+                <img src="assets/card-6.jpg" alt="Sample photo">
+                <div class="text">
+                    <h3>Trolltunga</h3>
+                    <p>Terletak di ketinggian 700m di atas danau Ringedalsvatnet, Norwegia.</p>
+                    <button href="#" class="btn-article">Selengkapnya</button>
+                </div>
+            </article>
+        </main>
+    </div>
+
+
+    <!-- Form Menu -->
+    <h1 style="margin-top: 3cm; text-align: center;" class="animate__animated animate__headShake">Hubungi Kami</h1>
+    <div class="wpcf7" id="wpcf7-f156-p143-o1 formwrap">
+        <form action="/?page_id=143#wpcf7-f156-p143-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+            <div style="display: none;">
+                <input type="hidden">
+                <input type="hidden">
+                <input type="hidden">
+                <input type="hidden">
+                <input type="hidden">
+            </div>
+            <p>
+            <span class="Name">
+                <input type="text" name="Name" value="" size="40" class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name">
+            </span>
+            <span class="mail">
+                <input type="email" name="Email"  size="40" class="emailinput wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email">
+            </span>
+            <span class="message">
+                <textarea name="Message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message"></textarea>
+            </span>
+            <button type="submit" class="btn-submit">kirim</button>
+            </p>
+        <div class="wpcf7-response-output wpcf7-display-none">
+        </div>
+    </form>
+    </div>
+
+    <!-- Footer  -->
+    <section class="contact-area" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="contact-content text-center">
+                        <a href="#"><img src="assets/logo.png" alt="logo"></a>
+                        <h4 style="margin-top: 2em;">Izinkan kami mengantar Anda dengan paket liburan kami yang sangat terjangkau dan andal</h4>
+                        <div style="margin-top: 2em;">
+                            <h3>Kontak Kami</h3>
+                            <br>
+                            <h6>+62 2345 6789 12<span>|</span>+62 2345 6789 12</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============== 1.9 Contact Area End ====================-->
+    <!-- =============== 1.9 Footer Area Start ====================-->
+    <footer>
+        <p>Copyright &copy; 20123 <img src="assets/logo.png" alt="logo"> All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
